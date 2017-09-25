@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E4C5B6A1F78CFC600DDBACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C5B691F78CFC600DDBACE /* main.m */; };
+		7E4C5B6D1F78CFC600DDBACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C5B6C1F78CFC600DDBACE /* AppDelegate.m */; };
+		7E4C5B701F78CFC600DDBACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C5B6F1F78CFC600DDBACE /* ViewController.m */; };
+		7E4C5B731F78CFC600DDBACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4C5B711F78CFC600DDBACE /* Main.storyboard */; };
+		7E4C5B751F78CFC700DDBACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4C5B741F78CFC700DDBACE /* Assets.xcassets */; };
+		7E4C5B781F78CFC700DDBACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4C5B761F78CFC700DDBACE /* LaunchScreen.storyboard */; };
+		7E4C5B831F78CFCA00DDBACE /* LWTVerticalLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C5B821F78CFCA00DDBACE /* LWTVerticalLabelTests.m */; };
+		7E4C5B8E1F78CFCA00DDBACE /* LWTVerticalLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C5B8D1F78CFCA00DDBACE /* LWTVerticalLabelUITests.m */; };
+		7E4C5B9D1F78CFF700DDBACE /* VerticalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C5B9C1F78CFF700DDBACE /* VerticalLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E4C5B7F1F78CFCA00DDBACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4C5B5D1F78CFC500DDBACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4C5B641F78CFC500DDBACE;
+			remoteInfo = LWTVerticalLabel;
+		};
+		7E4C5B8A1F78CFCA00DDBACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4C5B5D1F78CFC500DDBACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4C5B641F78CFC500DDBACE;
+			remoteInfo = LWTVerticalLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E4C5B651F78CFC600DDBACE /* LWTVerticalLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWTVerticalLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4C5B691F78CFC600DDBACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E4C5B6B1F78CFC600DDBACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E4C5B6C1F78CFC600DDBACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E4C5B6E1F78CFC600DDBACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E4C5B6F1F78CFC600DDBACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E4C5B721F78CFC600DDBACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E4C5B741F78CFC700DDBACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E4C5B771F78CFC700DDBACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E4C5B791F78CFC700DDBACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4C5B7E1F78CFCA00DDBACE /* LWTVerticalLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWTVerticalLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4C5B821F78CFCA00DDBACE /* LWTVerticalLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTVerticalLabelTests.m; sourceTree = "<group>"; };
+		7E4C5B841F78CFCA00DDBACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4C5B891F78CFCA00DDBACE /* LWTVerticalLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWTVerticalLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4C5B8D1F78CFCA00DDBACE /* LWTVerticalLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTVerticalLabelUITests.m; sourceTree = "<group>"; };
+		7E4C5B8F1F78CFCA00DDBACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4C5B9B1F78CFF700DDBACE /* VerticalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLabel.h; sourceTree = "<group>"; };
+		7E4C5B9C1F78CFF700DDBACE /* VerticalLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4C5B621F78CFC500DDBACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4C5B7B1F78CFCA00DDBACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4C5B861F78CFCA00DDBACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4C5B5C1F78CFC500DDBACE = {
+			isa = PBXGroup;
+			children = (
+				7E4C5B671F78CFC600DDBACE /* LWTVerticalLabel */,
+				7E4C5B811F78CFCA00DDBACE /* LWTVerticalLabelTests */,
+				7E4C5B8C1F78CFCA00DDBACE /* LWTVerticalLabelUITests */,
+				7E4C5B661F78CFC600DDBACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E4C5B661F78CFC600DDBACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4C5B651F78CFC600DDBACE /* LWTVerticalLabel.app */,
+				7E4C5B7E1F78CFCA00DDBACE /* LWTVerticalLabelTests.xctest */,
+				7E4C5B891F78CFCA00DDBACE /* LWTVerticalLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E4C5B671F78CFC600DDBACE /* LWTVerticalLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7E4C5B6B1F78CFC600DDBACE /* AppDelegate.h */,
+				7E4C5B6C1F78CFC600DDBACE /* AppDelegate.m */,
+				7E4C5B6E1F78CFC600DDBACE /* ViewController.h */,
+				7E4C5B6F1F78CFC600DDBACE /* ViewController.m */,
+				7E4C5B9B1F78CFF700DDBACE /* VerticalLabel.h */,
+				7E4C5B9C1F78CFF700DDBACE /* VerticalLabel.m */,
+				7E4C5B711F78CFC600DDBACE /* Main.storyboard */,
+				7E4C5B741F78CFC700DDBACE /* Assets.xcassets */,
+				7E4C5B761F78CFC700DDBACE /* LaunchScreen.storyboard */,
+				7E4C5B791F78CFC700DDBACE /* Info.plist */,
+				7E4C5B681F78CFC600DDBACE /* Supporting Files */,
+			);
+			path = LWTVerticalLabel;
+			sourceTree = "<group>";
+		};
+		7E4C5B681F78CFC600DDBACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E4C5B691F78CFC600DDBACE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E4C5B811F78CFCA00DDBACE /* LWTVerticalLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4C5B821F78CFCA00DDBACE /* LWTVerticalLabelTests.m */,
+				7E4C5B841F78CFCA00DDBACE /* Info.plist */,
+			);
+			path = LWTVerticalLabelTests;
+			sourceTree = "<group>";
+		};
+		7E4C5B8C1F78CFCA00DDBACE /* LWTVerticalLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4C5B8D1F78CFCA00DDBACE /* LWTVerticalLabelUITests.m */,
+				7E4C5B8F1F78CFCA00DDBACE /* Info.plist */,
+			);
+			path = LWTVerticalLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E4C5B641F78CFC500DDBACE /* LWTVerticalLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4C5B921F78CFCA00DDBACE /* Build configuration list for PBXNativeTarget "LWTVerticalLabel" */;
+			buildPhases = (
+				7E4C5B611F78CFC500DDBACE /* Sources */,
+				7E4C5B621F78CFC500DDBACE /* Frameworks */,
+				7E4C5B631F78CFC500DDBACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWTVerticalLabel;
+			productName = LWTVerticalLabel;
+			productReference = 7E4C5B651F78CFC600DDBACE /* LWTVerticalLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E4C5B7D1F78CFCA00DDBACE /* LWTVerticalLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4C5B951F78CFCA00DDBACE /* Build configuration list for PBXNativeTarget "LWTVerticalLabelTests" */;
+			buildPhases = (
+				7E4C5B7A1F78CFCA00DDBACE /* Sources */,
+				7E4C5B7B1F78CFCA00DDBACE /* Frameworks */,
+				7E4C5B7C1F78CFCA00DDBACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4C5B801F78CFCA00DDBACE /* PBXTargetDependency */,
+			);
+			name = LWTVerticalLabelTests;
+			productName = LWTVerticalLabelTests;
+			productReference = 7E4C5B7E1F78CFCA00DDBACE /* LWTVerticalLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E4C5B881F78CFCA00DDBACE /* LWTVerticalLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4C5B981F78CFCA00DDBACE /* Build configuration list for PBXNativeTarget "LWTVerticalLabelUITests" */;
+			buildPhases = (
+				7E4C5B851F78CFCA00DDBACE /* Sources */,
+				7E4C5B861F78CFCA00DDBACE /* Frameworks */,
+				7E4C5B871F78CFCA00DDBACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4C5B8B1F78CFCA00DDBACE /* PBXTargetDependency */,
+			);
+			name = LWTVerticalLabelUITests;
+			productName = LWTVerticalLabelUITests;
+			productReference = 7E4C5B891F78CFCA00DDBACE /* LWTVerticalLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E4C5B5D1F78CFC500DDBACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LWT;
+				TargetAttributes = {
+					7E4C5B641F78CFC500DDBACE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7E4C5B7D1F78CFCA00DDBACE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E4C5B641F78CFC500DDBACE;
+					};
+					7E4C5B881F78CFCA00DDBACE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E4C5B641F78CFC500DDBACE;
+					};
+				};
+			};
+			buildConfigurationList = 7E4C5B601F78CFC500DDBACE /* Build configuration list for PBXProject "LWTVerticalLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E4C5B5C1F78CFC500DDBACE;
+			productRefGroup = 7E4C5B661F78CFC600DDBACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E4C5B641F78CFC500DDBACE /* LWTVerticalLabel */,
+				7E4C5B7D1F78CFCA00DDBACE /* LWTVerticalLabelTests */,
+				7E4C5B881F78CFCA00DDBACE /* LWTVerticalLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E4C5B631F78CFC500DDBACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4C5B781F78CFC700DDBACE /* LaunchScreen.storyboard in Resources */,
+				7E4C5B751F78CFC700DDBACE /* Assets.xcassets in Resources */,
+				7E4C5B731F78CFC600DDBACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4C5B7C1F78CFCA00DDBACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4C5B871F78CFCA00DDBACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4C5B611F78CFC500DDBACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4C5B9D1F78CFF700DDBACE /* VerticalLabel.m in Sources */,
+				7E4C5B701F78CFC600DDBACE /* ViewController.m in Sources */,
+				7E4C5B6D1F78CFC600DDBACE /* AppDelegate.m in Sources */,
+				7E4C5B6A1F78CFC600DDBACE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4C5B7A1F78CFCA00DDBACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4C5B831F78CFCA00DDBACE /* LWTVerticalLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4C5B851F78CFCA00DDBACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4C5B8E1F78CFCA00DDBACE /* LWTVerticalLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E4C5B801F78CFCA00DDBACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4C5B641F78CFC500DDBACE /* LWTVerticalLabel */;
+			targetProxy = 7E4C5B7F1F78CFCA00DDBACE /* PBXContainerItemProxy */;
+		};
+		7E4C5B8B1F78CFCA00DDBACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4C5B641F78CFC500DDBACE /* LWTVerticalLabel */;
+			targetProxy = 7E4C5B8A1F78CFCA00DDBACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E4C5B711F78CFC600DDBACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4C5B721F78CFC600DDBACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E4C5B761F78CFC700DDBACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4C5B771F78CFC700DDBACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E4C5B901F78CFCA00DDBACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E4C5B911F78CFCA00DDBACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4C5B931F78CFCA00DDBACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWTVerticalLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.LWTVerticalLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E4C5B941F78CFCA00DDBACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWTVerticalLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.LWTVerticalLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E4C5B961F78CFCA00DDBACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LWTVerticalLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.LWTVerticalLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWTVerticalLabel.app/LWTVerticalLabel";
+			};
+			name = Debug;
+		};
+		7E4C5B971F78CFCA00DDBACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LWTVerticalLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.LWTVerticalLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWTVerticalLabel.app/LWTVerticalLabel";
+			};
+			name = Release;
+		};
+		7E4C5B991F78CFCA00DDBACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LWTVerticalLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.LWTVerticalLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LWTVerticalLabel;
+			};
+			name = Debug;
+		};
+		7E4C5B9A1F78CFCA00DDBACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LWTVerticalLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.LWTVerticalLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LWTVerticalLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4C5B601F78CFC500DDBACE /* Build configuration list for PBXProject "LWTVerticalLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4C5B901F78CFCA00DDBACE /* Debug */,
+				7E4C5B911F78CFCA00DDBACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4C5B921F78CFCA00DDBACE /* Build configuration list for PBXNativeTarget "LWTVerticalLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4C5B931F78CFCA00DDBACE /* Debug */,
+				7E4C5B941F78CFCA00DDBACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E4C5B951F78CFCA00DDBACE /* Build configuration list for PBXNativeTarget "LWTVerticalLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4C5B961F78CFCA00DDBACE /* Debug */,
+				7E4C5B971F78CFCA00DDBACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E4C5B981F78CFCA00DDBACE /* Build configuration list for PBXNativeTarget "LWTVerticalLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4C5B991F78CFCA00DDBACE /* Debug */,
+				7E4C5B9A1F78CFCA00DDBACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E4C5B5D1F78CFC500DDBACE /* Project object */;
+}
